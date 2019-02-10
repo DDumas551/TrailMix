@@ -247,22 +247,22 @@
               <div class="col-lg-6 col-md-6">
                   <div class="input-group input-group-lg">
                   <span class="input-group-addon" id="sizing-addon1"><i class="far fa-user"></i></span>
-                  <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
+                  <input id="userName" type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
                   </div>
                   <div class="input-group input-group-lg">
                   <span class="input-group-addon" id="sizing-addon1"><i class="far fa-envelope"></i></span>
-                  <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
+                  <input id="userEmail" type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Feature Comming Soon">
                   </div>
                   <div class="input-group input-group-lg">
                  <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-phone"></i></span>
-                 <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number">
+                 <input id="userPhone" type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number of your favourite pizza place:">
                   </div>
               </div>
               <div class="col-lg-6 col-md-6">
                   <div class="input-group">
-                      <textarea name="" id="" cols="80" rows="6" class="form-control"></textarea>
+                      <textarea name="" id="userComment" cols="80" rows="6" class="form-control"></textarea>
                   </div>
-                  <button class="btn btn-lg">Submit Your Message</button>
+                  <button id="commentSubmit" class="btn btn-lg">Submit Your Message</button>
               </div>
           </div>
       </div>
@@ -283,11 +283,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIbmWFTKZvx7_IcqVW9iSvh5g91vvdIvY&callback=initMap"
     type="text/javascript"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" async defer></script>       
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
    <script src="js/wow.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
